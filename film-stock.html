@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>Film Stock Archive — LOST HALIDE</title>
+  <meta name="description" content="Search the LOST HALIDE film stock directory by manufacturer, format, ISO, category, and development process.">
+  <meta property="og:type" content="website"><meta property="og:title" content="Film Stock Archive — LOST HALIDE">
+  <meta property="og:description" content="Search the LOST HALIDE film stock directory by manufacturer, format, ISO, category, and development process.">
+  <link rel="canonical" href="https://example.com/film-stock.html">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data/data.js"></script><script defer src="script.js"></script>
+</head>
+<body data-page="film-stock">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="wordmark" href="index.html">LOST <span>HALIDE</span></a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button>
+<nav id="site-nav" class="site-nav" aria-label="Main navigation">
+<a href="gallery.html">Gallery</a><a href="street.html">Street</a><a href="film-photography.html">Film</a><a href="film-stock.html">Film Stock</a><a href="diary.html">Diary</a><a href="about.html">About</a>
+</nav></header>
+<main id="main"><section class="page-intro"><p class="eyebrow">03 / REFERENCE</p><h1>A directory of <em>emulsions.</em></h1><p class="lede">A growing reference archive for film stocks and the photographs connected to them. Reference entries are not proof of personal use.</p></section>
+<section class="archive-controls">
+<label class="search-field">Search film stocks<input id="stock-search" type="search" placeholder="Manufacturer or film name…"></label>
+<label>Manufacturer<select id="stock-manufacturer"><option value="">All manufacturers</option></select></label>
+<label>Category<select id="stock-category"><option value="">All categories</option><option>Color Negative</option><option>Black & White Negative</option><option>Slide / Reversal</option><option>Experimental</option><option>Expired Film</option><option>Other</option></select></label>
+<label>Format<select id="stock-format"><option value="">All formats</option><option>35mm</option><option>120</option><option>110</option><option>4×5</option><option>Other</option></select></label>
+<label>ISO<select id="stock-iso"><option value="">All ISO</option><option>50</option><option>100</option><option>200</option><option>400</option><option>800</option><option>Other</option></select></label>
+<label>Process<select id="stock-process"><option value="">All processes</option><option>C-41</option><option>Black & white</option><option>E-6</option><option>Other / unknown</option></select></label>
+</section><p id="stock-count" class="result-count" aria-live="polite"></p><div id="stock-grid" class="stock-grid"></div><p id="stock-empty" class="empty-state" hidden>No film stocks match your search.</p></main>
+<footer class="site-footer"><a class="wordmark" href="index.html">LOST <span>HALIDE</span></a><p>ORDINARY DAYS. UNORDINARY FRAMES.</p><div><a href="about.html">About</a><a href="#" data-social="instagram">Instagram ↗</a><a href="#" data-social="contact">Contact</a></div><small>© <span data-year></span> LOST HALIDE. Replace demo content with your own work.</small></footer>
+</body></html>

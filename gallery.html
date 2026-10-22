@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>Gallery — LOST HALIDE</title>
+  <meta name="description" content="Browse the LOST HALIDE photographic archive: street scenes, urban details, people, and analog photography.">
+  <meta property="og:type" content="website"><meta property="og:title" content="Gallery — LOST HALIDE">
+  <meta property="og:description" content="Browse the LOST HALIDE photographic archive: street scenes, urban details, people, and analog photography.">
+  <link rel="canonical" href="https://example.com/gallery.html">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data/data.js"></script><script defer src="script.js"></script>
+</head>
+<body data-page="gallery">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="wordmark" href="index.html">LOST <span>HALIDE</span></a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button>
+<nav id="site-nav" class="site-nav" aria-label="Main navigation">
+<a href="gallery.html">Gallery</a><a href="street.html">Street</a><a href="film-photography.html">Film</a><a href="film-stock.html">Film Stock</a><a href="diary.html">Diary</a><a href="about.html">About</a>
+</nav></header>
+<main id="main"><section class="page-intro"><p class="eyebrow">THE MASTER ARCHIVE</p><h1>Photographs, <em>in passing.</em></h1><p class="lede">A living collection of observations. Search, filter, and open each frame to see its available notes.</p></section>
+<section class="archive-controls" aria-label="Gallery filters">
+  <label class="search-field">Search the archive<input id="gallery-search" type="search" placeholder="Title or caption…"></label>
+  <label>Category<select id="gallery-category"><option value="">All categories</option><option>Street</option><option>Urban</option><option>People</option><option>Film</option><option>Architecture</option></select></label>
+  <label>Sort<select id="gallery-sort"><option value="featured">Featured</option><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label>
+  <button class="quiet-button" id="gallery-reset" type="button">Reset filters</button>
+</section>
+<p id="gallery-count" class="result-count" aria-live="polite"></p>
+<div id="gallery-grid" class="photo-grid"></div><p id="gallery-empty" class="empty-state" hidden>No photographs match these filters. Try another search.</p>
+<div id="lightbox-root"></div></main>
+<footer class="site-footer"><a class="wordmark" href="index.html">LOST <span>HALIDE</span></a><p>ORDINARY DAYS. UNORDINARY FRAMES.</p><div><a href="about.html">About</a><a href="#" data-social="instagram">Instagram ↗</a><a href="#" data-social="contact">Contact</a></div><small>© <span data-year></span> LOST HALIDE. Replace demo content with your own work.</small></footer>
+</body></html>
